@@ -1,0 +1,38 @@
+*{
+    margin: 0 3px;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: rgb(19, 20, 40);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+img{
+    width: 400px;
+    height: 250px;
+    transition: all .3s ease;
+}
+
+img:hover{
+    filter:brightness(1.6);
+}
+
+h1 {
+    color: rgb(255, 183, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 60px;
+}
+
+#p{
+    color: rgba(255, 255, 255, 0.627);
+    margin-bottom: 20px;
+}
+
+.tdPragraph{
+    background-color: rgb(93, 106, 129);
+}
+
+td p{
+    background-color: rgb(93, 106, 129);
+    color: aliceblue;
+}
